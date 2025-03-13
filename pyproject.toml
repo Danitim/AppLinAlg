@@ -1,0 +1,18 @@
+[project]
+name = "applinalg"
+version = "0.1.0"
+description = "applied linear algebra functions implementation"
+authors = [
+    {name = "Timchenko Daniil",email = "danitim4@gmail.com"}
+]
+license = {text = "The Unlicense"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy (>=2.2.3,<3.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
